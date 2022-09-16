@@ -1,0 +1,33 @@
+{
+  "type" : "object",
+  "id" : "urn:jsonschema:com:JSON:Person",
+  "properties" : {
+    "name" : {
+      "type" : "string"
+    },
+    "age" : {
+      "type" : "integer"
+    },
+    "address" : {
+      "type" : "object",
+      "id" : "urn:jsonschema:com:JSON:Address",
+      "properties" : {
+        "firstLine" : {
+          "type" : "string"
+        },
+        "secondLine" : {
+          "type" : "string"
+        },
+        "thirdLine" : {
+          "type" : "string"
+        }
+      }
+    },
+    "course" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    }
+  }
+}

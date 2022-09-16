@@ -1,6 +1,5 @@
 package com.JSON;
 
-import com.fasterxml.jackson.core.JsonToken;
 import org.everit.json.schema.Schema;
 import org.everit.json.schema.loader.SchemaLoader;
 import org.json.JSONObject;
@@ -8,7 +7,7 @@ import org.json.JSONTokener;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
+
 import java.util.Scanner;
 
 public class JsonSchemaTrial {
